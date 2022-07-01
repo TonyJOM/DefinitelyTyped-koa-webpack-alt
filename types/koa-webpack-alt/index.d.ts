@@ -1,4 +1,4 @@
-// Type definitions for koa-webpack 6.0
+// Type definitions for koa-webpack-alt 6.0
 // Project: https://github.com/shellscape/koa-webpack
 // Definitions by: Luka Maljic <https://github.com/malj>
 //                 Lee Benson <https://github.com/leebenson>
@@ -10,7 +10,7 @@
 import Koa = require('koa');
 import webpack = require('webpack');
 import webpackDevMiddleware = require('webpack-dev-middleware');
-import webpackHotClient = require('webpack-hot-client');
+import webpackHotClient = require('webpack-hot-client-alt');
 
 declare module 'koa' {
     interface DefaultState {
@@ -34,7 +34,7 @@ declare namespace koaWebpack {
     interface CombinedWebpackMiddleware {
         devMiddleware: webpackDevMiddleware.WebpackDevMiddleware;
         /**
-         * @todo make this a `webpack-hot-client@^4.0.0` instance, no typings for v4 available yet
+         * @todo make this a `webpack-hot-client-alt@^4.0.0` instance, no typings for v4 available yet
          */
         hotClient: {
             close: () => void;

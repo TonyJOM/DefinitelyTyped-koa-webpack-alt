@@ -1,6 +1,6 @@
 import Koa = require('koa');
 import webpack = require('webpack');
-import koaWebpack = require('koa-webpack');
+import koaWebpack = require('koa-webpack-alt');
 
 const app = new Koa();
 const config: webpack.Configuration = {};

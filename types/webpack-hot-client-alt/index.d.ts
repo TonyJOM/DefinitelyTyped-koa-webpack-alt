@@ -1,4 +1,4 @@
-// Type definitions for webpack-hot-client 4.1
+// Type definitions for webpack-hot-client-alt 4.1
 // Project: https://github.com/webpack-contrib/webpack-hot-client
 // Definitions by: ZSkycat <https://github.com/ZSkycat>
 //                 Brian Armstrong <https://github.com/barm>
@@ -53,7 +53,7 @@ declare namespace WebpackHotClient {
         hmr?: boolean | undefined;
         /** Enable HTTPS */
         https?: boolean | undefined;
-        /** Level of information for webpack-hot-client to output */
+        /** Level of information for webpack-hot-client-alt to output */
         logLevel?: 'trace' | 'debug' | 'info' | 'warn' | 'error' | 'silent' | undefined;
         /** Prepend timestamp to each log line */
         logTime?: boolean | undefined;
@@ -61,7 +61,7 @@ declare namespace WebpackHotClient {
         port?: number | undefined;
         /** Reload the page if a patch cannot be applied by webpack */
         reload?: boolean | undefined;
-        /** Server instance for webpack-hot-client to connect to */
+        /** Server instance for webpack-hot-client-alt to connect to */
         server?: net.Server | undefined;
         /** Webpack stats configuration */
         stats?: webpack.Options.Stats | undefined;

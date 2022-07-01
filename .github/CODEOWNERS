@@ -3884,7 +3884,7 @@
 /types/koa-static-cache/                                @JounQin
 /types/koa-static-server/                               @wulunyi
 /types/koa-subdomain/                                   @BolZer
-/types/koa-webpack/                                     @malj @leebenson @miZyind @tlaziuk
+/types/koa-webpack-alt/                                 @malj @leebenson @miZyind @tlaziuk
 /types/koa-websocket/                                   @moimael @jacogr @zdila @Kroisse @Christopher2K @Aoiujz
 /types/koa-xml-body/                                    @uwinkelvos
 /types/koa2-cors/                                       @xialeistudio
@@ -8125,7 +8125,7 @@
 /types/webpack-error-notification/                      @peterblazejewicz
 /types/webpack-fail-plugin/                             @deevus
 /types/webpack-files-archive-plugin/                    @yusufades
-/types/webpack-hot-client/                              @ZSkycat @barm
+/types/webpack-hot-client-alt/                          @ZSkycat @barm
 /types/webpack-hot-middleware/                          @bumbleblym @icylace @chrisabrams @iliyaZelenko @saboya
 /types/webpack-livereload-plugin/                       @peterblazejewicz
 /types/webpack-manifest-plugin/                         @r3nya @monsonjeremy

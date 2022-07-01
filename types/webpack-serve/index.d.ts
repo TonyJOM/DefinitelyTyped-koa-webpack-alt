@@ -10,7 +10,7 @@
 import * as koa from 'koa';
 import * as webpack from 'webpack';
 import * as webpackDevMiddleware from 'webpack-dev-middleware';
-import * as webpackHotClient from 'webpack-hot-client';
+import * as webpackHotClient from 'webpack-hot-client-alt';
 import * as https from 'https';
 import * as net from 'net';
 
@@ -56,7 +56,7 @@ declare namespace WebpackServe {
         /** The host the server will listen on */
         host?: string | undefined;
 
-        /** Options for webpack-hot-client */
+        /** Options for webpack-hot-client-alt */
         hotClient?: webpackHotClient.Options | boolean | undefined;
 
         /** Enable HTTP2 support */

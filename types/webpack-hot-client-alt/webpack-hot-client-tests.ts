@@ -1,5 +1,5 @@
 import webpack = require('webpack');
-import hot = require('webpack-hot-client');
+import hot = require('webpack-hot-client-alt');
 
 const compiler = webpack();
 
