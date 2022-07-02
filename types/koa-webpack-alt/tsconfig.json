@@ -26,6 +26,6 @@
     },
     "files": [
         "index.d.ts",
-        "koa-webpack-tests.ts"
+        "koa-webpack-tests-alt.ts"
     ]
 }
