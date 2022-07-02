@@ -26,6 +26,6 @@
   },
   "files": [
     "index.d.ts",
-    "webpack-hot-client-tests.ts"
+      "webpack-hot-client-alt-tests.ts"
   ]
 }
